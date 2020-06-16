@@ -4,11 +4,22 @@
   "description": "gnx and mongo express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "author": "lucas amaya",
   "license": "ISC",
   "dependencies": {
+    "@simtlix/gnx": "^2.4.7",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.1.0",
+    "moment": "^2.26.0",
+    "mongo-express": "^0.54.0",
+    "mongoose": "^5.9.19",
+    "run-rs": "^0.6.2"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.4"
   }
 }
